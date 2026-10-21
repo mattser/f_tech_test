@@ -8,9 +8,19 @@ To initialise the project, download dependencies and verify it builds correctly 
 ```shell
 mvn clean install
 ```
+Please note running `mvn install` will create a jacoco test report which can be found in 
+`target/site/jacoco/index.html`.
+This report contains test coverage for all code.
 
-TODO: Complete README
+To run Unit tests to verify scenarios please run
+```shell
+mvn test
+```
 
+If any changes are made to the repository please apply Google Java Formatting with:
+```shell
+mvn spotless:apply
+```
 ## Rationale
 Vague titles, such as "Architect" or "Accountant" can be used to describe a larger range of job titles.
 For example:

@@ -7,6 +7,8 @@ For details see the relevant READMEs
 Contains the object orientated portion of the technical assessment.
 See the README for instructions on running the code / tests.
 
+Note to run this project with tests Maven must be installed on the system.
+
 ## 2. UI Assessment
 Contains the UI portion of the technical assessment. 
 See the README for instructions on running the code / tests.

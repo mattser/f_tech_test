@@ -35,7 +35,7 @@ coupled by them both being Engineering based professions.
 
 ### Role Weighting
 A quality score is used to determine the correlation between a given title and the predefined list of normalised tites.
-Vague, or encompassing job descriptions will be automatically be awarded a qaulity score of `1` as their jobs can 
+Vague, or encompassing job descriptions will be automatically be awarded a quality score of `1` as their jobs can 
 easily be normalised.
 For discrete or specific roles, more than one key word needs to be matched to achieve an equally strong correlation. 
 This means that each word is weighted with a quality score of `0.4`
